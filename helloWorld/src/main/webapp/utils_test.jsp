@@ -1,8 +1,7 @@
-<%@ page import="jsp_demos.*" %>
+<%@ page import="helperUtils.*" %>
 <html>
-	<jsp:include page="myheader.html" />
+	<jsp:include page="myHeader.html" />
 	<body>
-		<h3>Testing the utils: <%= HelperUtils.upperCaseIt("Jsp demo is cool") %></h3>
-		<jsp:include page="myFooter.jsp" />
+		<h3>Testing the utils: <%= helperUtils.upperCaseIt("Jsp demo is cool") %></h3>
 	</body>
 </html>
